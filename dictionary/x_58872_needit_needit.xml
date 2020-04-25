@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="NeedIt" max_length="40" name="x_58872_needit_needit" sizeclass="0" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Priorities" max_length="40" name="u_choice_1" type="string">
+            <choice>
+                <element inactive_on_update="false" label="1 - Urgent" sequence="0" value="1 - urgent"/>
+                <element inactive_on_update="false" label="2 - High" sequence="1" value="2 - high"/>
+                <element inactive_on_update="false" label="3 - Medium" sequence="2" value="3 - medium"/>
+                <element inactive_on_update="false" label="4 - Low" sequence="3" value="4 - low"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Additional comments" max_length="1000" name="u_string_2" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Description" max_length="40" name="u_string_4" type="string"/>
+    </element>
+</database>
